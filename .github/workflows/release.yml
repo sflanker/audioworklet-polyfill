@@ -68,7 +68,10 @@ jobs:
         with:
           name: dist
 
+      - name: 'Debug build artifact issue'
+        run: find . -not -path "./node_modules*" -not -path "./.git/*"
+
       - name: 'Publish to npmjs.org'
-        run: npm publish --access public
+        run: npm publish --dry-run
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
