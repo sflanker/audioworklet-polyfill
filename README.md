@@ -2,7 +2,7 @@
   <img src="https://i.imgur.com/RqW6b4o.png" width="200" height="200" alt="AudioWorklet Polyfill">
   <h1 align="center">
   	AudioWorklet Polyfill
-	<a href="https://www.npmjs.org/package/audioworklet-polyfill"><img src="https://img.shields.io/npm/v/audioworklet-polyfill.svg?style=flat" alt="npm"></a>
+	<a href="https://www.npmjs.org/package/@free-side/audioworklet-polyfill"><img src="https://img.shields.io/npm/v/@free-side/audioworklet-polyfill.svg?style=flat" alt="npm"></a>
   </h1>
   <h3 align="center">1kB polyfill for <a href="https://developers.google.com/web/updates/2017/12/audio-worklet">AudioWorklet</a>.</h3>
 </p>
@@ -19,7 +19,7 @@
 ```html
 <script src="audioworklet-polyfill.js"></script>
 <!-- or: -->
-<script src="https://unpkg.com/audioworklet-polyfill/dist/audioworklet-polyfill.js"></script>
+<script src="https://unpkg.com/@free-side/audioworklet-polyfill/dist/audioworklet-polyfill.js"></script>
 ```
 
 Or with a bundler:
@@ -31,7 +31,7 @@ import 'audioworklet-polyfill';
 ... or with ES Modules on the web:
 
 ```js
-import('https://unpkg.com/audioworklet-polyfill/dist/audioworklet-polyfill.js');
+import('https://unpkg.com/@free-side/audioworklet-polyfill/dist/audioworklet-polyfill.js');
 ```
 
 ## Roadmap
